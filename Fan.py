@@ -10,3 +10,7 @@ class Fan:
     # Method to get the current speed of the fan 
     def get_speed (self):
         return self.speed
+    
+    # Method to set the speed of the fan
+    def set_speed (self, speed):
+        self.speed = speed
