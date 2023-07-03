@@ -31,4 +31,8 @@ class Fan:
     def set_color (self, color):
         self.color = color
 
+    # Method to turn on the fan
+    def turn_on (self):
+        self.on = False
+    
     
