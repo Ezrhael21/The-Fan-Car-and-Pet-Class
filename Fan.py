@@ -14,3 +14,8 @@ class Fan:
     # Method to set the speed of the fan
     def set_speed (self, speed):
         self.speed = speed
+
+    # Method to get the radius of the fan 
+    def get_radius (self):
+        return self.radius
+    
