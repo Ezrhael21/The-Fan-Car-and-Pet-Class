@@ -35,6 +35,10 @@ class Fan:
     def turn_on (self):
         self.on = True
     
+    # Method to turn off the fan
+    def turn_off(self):
+        self.on = False
+    
     
 
     
