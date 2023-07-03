@@ -36,3 +36,5 @@ class Fan:
         self.on = False
     
     
+
+    
