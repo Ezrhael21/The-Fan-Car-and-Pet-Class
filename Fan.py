@@ -27,3 +27,8 @@ class Fan:
     def get_color (self):
         return self.color
     
+    # Method to set the color of the fan
+    def set_color (self, color):
+        self.color = color
+
+    
