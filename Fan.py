@@ -21,5 +21,9 @@ class Fan:
     
     # Method to set the radius of the fan
     def set_radius (self, radius):
-        self.speed = radius
+        self.radius = radius
+
+    # Method to get the color of the fan 
+    def get_color (self):
+        return self.color
     
