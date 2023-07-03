@@ -33,7 +33,7 @@ class Fan:
 
     # Method to turn on the fan
     def turn_on (self):
-        self.on = False
+        self.on = True
     
     
 
