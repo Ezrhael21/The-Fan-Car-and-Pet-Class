@@ -25,6 +25,12 @@ user_radius_two = input(int("Enter the radius of the fan: "))
 user_color_two = input(str("Enter the color of the fan: "))
 user_power_two = input("Is the fan on/off: ")
 
+# Set Fan2 Details 
+fan_two.set_speed(user_speed_two)
+fan_two.set_speed(user_radius_two)
+fan_two.set_speed(user_color_two)
+fan_two.set_speed(user_power_two)
+
 # Call the methods in the main file
 # Display the Output
 
