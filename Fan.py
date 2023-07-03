@@ -7,4 +7,6 @@ class Fan:
         self.color = color
         self.power = power
     
-    
+    # Method to get the current speed of the fan 
+    def get_speed (self):
+        return self.speed
