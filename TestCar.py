@@ -8,8 +8,12 @@ from Car import Car
 
 # Ask User for Car Details
 user_car_model = str(input("What is the Year Model of your car: "))
-user_car_make = str(input("What is the make of your Car: "))
+user_car_make = str(input("What is the Make of your Car: "))
 
 car = Car(user_car_model, user_car_make)
+
+# Call the Method Accelerate five times
+for _ in range(5):
+    car.accelerate()
 
 # Display the Output
