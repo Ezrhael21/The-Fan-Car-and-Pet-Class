@@ -22,6 +22,12 @@ user_pet_type = input("What is the type of animal your pet is: ")
 user_pet_age = int(input("What is the age of your pet: "))
 print (colorama.Fore.GREEN + "=" * 100)
 
+# Time Delay
+print (colorama.Fore.WHITE + "Processing...")
+print (colorama.Fore.GREEN + "=" * 100)
+import time
+time.sleep(5)
+
 # Set the pet details
 pet.set_name(user_pet_name)
 pet.set_type(user_pet_type)
