@@ -10,4 +10,8 @@ class Fan:
     def accelerate(self):
         self.__speed += 5
 
+    # Method to brake the current speed of the car
+    def brake(self):
+        self.__brake -= 5
+    
     
