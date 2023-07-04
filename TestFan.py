@@ -4,11 +4,12 @@
 # The Fan Class
 
 import pyfiglet
+import colorama
 
-print ("=" * 100)
+print (colorama.Fore.GREEN + "=" * 100)
 font = pyfiglet.figlet_format("TV Test Program", font = "slant", justify = "center")
-print (font)
-print ("=" * 100)
+print (colorama.Fore.YELLOW + font)
+print (colorama.Fore.GREEN + "=" * 100)
 
 # Call the Fan Class
 from Fan import Fan
@@ -18,7 +19,7 @@ fan_one = Fan()
 fan_two = Fan()
 
 # Ask the user for Fan1 Details
-user_speed_one = int(input("Enter the speed of Fan 1: "))
+user_speed_one = int(input(colorama.Fore.BLUE + "Enter the speed of Fan 1: (1=Slow, 2=Medium, 3=Fast)"))
 user_radius_one = float(input("Enter the radius of Fan 1: "))
 user_color_one = str(input("Enter the color of Fan 1: "))
 user_power_one = input("Is Fan 1 on/off: (True=On|False=Off) ").lower()
@@ -34,12 +35,12 @@ if user_power_one == "true":
 elif user_power_one == "false":
     fan_one.set_power(False)
 else:
-    print("Invalid input. Setting default power (False).")
+    print(colorama.Fore.WHITE + "Invalid input. Setting default power (False).")
     fan_one.set_power(False)
 
 # Ask the user for Fan2 Details
-print ("=" * 100)
-user_speed_two = int(input("Enter the speed of Fan 2: "))
+print (colorama.Fore.GREEN + "=" * 100)
+user_speed_two = int(input(colorama.Fore.BLUE + "Enter the speed of Fan 2: (1=Slow, 2=Medium, 3=Fast)"))
 user_radius_two = float(input("Enter the radius of Fan 2: "))
 user_color_two = str(input("Enter the color of Fan 2: "))
 user_power_two = input("Is Fan 2 on/off: (True=On|False=Off) ").lower()
@@ -59,19 +60,19 @@ else:
     fan_two.set_power(False)
 
 # Display the Output
-print ("=" * 100) 
-print ("Fan 1 Details:")
+print (colorama.Fore.GREEN + "=" * 100) 
+print (colorama.Fore.YELLOW + "Fan 1 Details:")
 print ("Speed: " + str(fan_one.get_speed()))
 print ("Radius: " + str(fan_one.get_radius()))
 print ("Color: " + str(fan_one.get_color()))
 print ("Power: " + str(fan_one.get_power()))
 
-print ("=" * 100)
-print ("Fan 2 Details:")
+print (colorama.Fore.GREEN + "=" * 100)
+print (colorama.Fore.YELLOW + "Fan 2 Details:")
 print ("Speed: " + str(fan_two.get_speed()))
 print ("Radius: " + str(fan_two.get_radius()))
 print ("Color: " + str(fan_two.get_color()))
 print ("Power: " + str(fan_two.get_power()))
-print ("=" * 100)
+print (colorama.Fore.GREEN + "=" * 100)
 
 
