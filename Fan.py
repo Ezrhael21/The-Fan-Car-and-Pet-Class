@@ -44,7 +44,7 @@ class Fan:
 
     # Method to set the power of the fan
     def set_power (self, power):
-        self.__power == power
+        self.__power = power
     
     
 
