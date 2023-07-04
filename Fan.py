@@ -1,7 +1,7 @@
 # Create a class named Fan
 class Fan:
     # Initialize the fan object
-    def __init__(self, speed = 3, radius = 5, color = "blue", power = False):
+    def __init__(self, speed = 1, radius = 5, color = "blue", power = False):
         self.__speed = speed
         self.__radius = radius
         self.__color = color
@@ -42,15 +42,9 @@ class Fan:
     def get_power (self):
         return self.__power
 
-    # Method to turn on the fan
-    def turn_on (self):
-        if self.__power == "yes":
-            return True
-    
-    # Method to turn off the fan
-    def turn_off (self):
-        if self.__power == "no":
-            return False
+    # Method to set the power of the fan
+    def set_power (self, power):
+        self.__power == power
     
     
 
