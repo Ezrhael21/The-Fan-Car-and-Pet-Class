@@ -16,12 +16,12 @@ car = Car(user_car_model, user_car_make)
 for _ in range(5):
     car.accelerate()
     # Display the Output for Car Speed
-    print (car.get_speed() + "kph")
+    print (str(car.get_speed()) + "kph")
 
 # Call the Method Brake five times 
 for _ in range(5):
     car.brake()
     # Display the Output for Car Speed
-    print (car.get_speed() + "kph")
+    print (str(car.get_speed()) + "kph")
     
     
