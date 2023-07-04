@@ -18,6 +18,9 @@ class Pet:
     def set_age (self, age):
         self.__age = age
     
+    # Method to get the name of the pet
+    def get_name (self):
+        return self.__name
 
     
 
