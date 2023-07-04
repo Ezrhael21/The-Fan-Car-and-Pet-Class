@@ -38,10 +38,11 @@ class Fan:
     def set_color (self, color):
         self.__color = color
 
-    # Method to turn on the fan
+    # Method to get the power of the fan
     def get_power (self):
         return self.__power
 
+    # Method to turn on the fan
     def turn_on (self):
         if self.__power == "yes":
             return True

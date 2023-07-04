@@ -11,10 +11,10 @@ fan_one = Fan()
 fan_two = Fan()
 
 # Ask the user for Fan1 Details
-user_speed_one = input("Enter the speed of the fan: ")
-user_radius_one = input("Enter the radius of the fan: ")
-user_color_one = input("Enter the color of the fan: ")
-user_power_one = input("Is the fan on/off: ")
+user_speed_one = int(input("Enter the speed of the fan: "))
+user_radius_one = float(input("Enter the radius of the fan: "))
+user_color_one = str(input("Enter the color of the fan: "))
+user_power_one = bool(input("Is the fan on/off: "))
 
 # Set Fan1 Details 
 fan_one.set_speed(user_speed_one)
@@ -22,10 +22,10 @@ fan_one.set_radius(user_radius_one)
 fan_one.set_color(user_color_one)
 
 # Ask the user for Fan2 Details
-user_speed_two = input("Enter the speed of the fan: ")
-user_radius_two = input("Enter the radius of the fan: ")
-user_color_two = input("Enter the color of the fan: ")
-user_power_two = input("Is the fan on/off: ")
+user_speed_two = int(input("Enter the speed of the fan: "))
+user_radius_two = float(input("Enter the radius of the fan: "))
+user_color_two = str(input("Enter the color of the fan: "))
+user_power_two = bool(input("Is the fan on/off: "))
 
 # Set Fan2 Details 
 fan_two.set_speed(user_speed_two)
