@@ -9,7 +9,14 @@ class Fan:
     
     # Method to get the current speed of the fan 
     def get_speed (self):
-        return self.__speed
+        if self.speed == 1:
+            return "slow"
+        elif self.speed == 2:
+            return "medium"
+        elif self.speed == 3:
+            return "Fast"
+        else:
+            return "unknown"
     
     # Method to set the speed of the fan
     def set_speed (self, speed):
