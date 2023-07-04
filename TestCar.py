@@ -3,6 +3,11 @@
 # 03/07/2023
 # The Car Class
 
+import pyfiglet
+
+font = pyfiglet.figlet_format("Test Car Program", font = "slant", justify = "center")
+print (font)
+
 # Call the Car Class
 from Car import Car
 

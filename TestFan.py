@@ -7,7 +7,7 @@ import pyfiglet
 import colorama
 
 print (colorama.Fore.GREEN + "=" * 100)
-font = pyfiglet.figlet_format("TV Test Program", font = "slant", justify = "center")
+font = pyfiglet.figlet_format("Test Fan Program", font = "slant", justify = "center")
 print (colorama.Fore.YELLOW + font)
 print (colorama.Fore.GREEN + "=" * 100)
 
