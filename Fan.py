@@ -1,7 +1,7 @@
 # Create a class named Fan
 class Fan:
     # Initialize the fan object
-    def __init__(self, speed = 1, radius = 5, color = "blue", power = False):
+    def __init__(self, speed = 1, radius = 5, color = "Blue", power = False):
         self.__speed = speed
         self.__radius = radius
         self.__color = color
