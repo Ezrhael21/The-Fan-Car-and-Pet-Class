@@ -3,6 +3,11 @@
 # 05/07/2023
 # The Pet Class
 
+import pyfiglet
+
+font = pyfiglet.figlet_format("Test Pet Program", font = "slant", justify = "center")
+print (font)
+
 # Call the Pet Class
 from Pet import Pet
 
