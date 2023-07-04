@@ -5,3 +5,9 @@ class Fan:
         self.__year_model = year_model
         self.__make = make
         self.__speed = 0
+    
+    # Method to accelerate the current speed of the car
+    def accelerate(self):
+        self.__speed += 5
+
+    
