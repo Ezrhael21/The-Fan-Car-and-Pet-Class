@@ -3,6 +3,11 @@
 # 03/07/2023
 # The Fan Class
 
+import pyfiglet
+
+font = pyfiglet.figlet_format("TV Test Program", font = "slant", justify = "center")
+print (font)
+
 # Call the Fan Class
 from Fan import Fan
 
@@ -57,7 +62,7 @@ print ("Radius: " + str(fan_one.get_radius()))
 print ("Color: " + str(fan_one.get_color()))
 print ("Power: " + str(fan_one.get_power()))
 
-print ("Fan 1 Details:")
+print ("Fan 2 Details:")
 print ("Speed: " + str(fan_two.get_speed()))
 print ("Radius: " + str(fan_two.get_radius()))
 print ("Color: " + str(fan_two.get_color()))
