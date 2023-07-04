@@ -6,5 +6,10 @@ class Pet:
         self.__type = type
         self.__age = age
     
+    # Method to set the name of the pet
+    def set_name (self, name):
+        self.__name = name
+
+    
 
     
