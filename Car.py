@@ -12,7 +12,7 @@ class Car:
 
     # Method to brake the current speed of the car
     def brake(self):
-        self.__brake -= 5
+        self.__speed -= 5
     
     # Method to get the current speed of the car
     def get_speed(self):
