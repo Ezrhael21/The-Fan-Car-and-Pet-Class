@@ -5,8 +5,10 @@
 
 import pyfiglet
 
+print ("=" * 100)
 font = pyfiglet.figlet_format("TV Test Program", font = "slant", justify = "center")
 print (font)
+print ("=" * 100)
 
 # Call the Fan Class
 from Fan import Fan
@@ -16,10 +18,10 @@ fan_one = Fan()
 fan_two = Fan()
 
 # Ask the user for Fan1 Details
-user_speed_one = int(input("Enter the speed of the fan: "))
-user_radius_one = float(input("Enter the radius of the fan: "))
-user_color_one = str(input("Enter the color of the fan: "))
-user_power_one = input("Is the fan on/off: (True=On|False=Off) ").lower()
+user_speed_one = int(input("Enter the speed of Fan 1: "))
+user_radius_one = float(input("Enter the radius of Fan 1: "))
+user_color_one = str(input("Enter the color of Fan 1: "))
+user_power_one = input("Is Fan 1 on/off: (True=On|False=Off) ").lower()
 
 # Set Fan1 Details 
 fan_one.set_speed(user_speed_one)
@@ -36,10 +38,11 @@ else:
     fan_one.set_power(False)
 
 # Ask the user for Fan2 Details
-user_speed_two = int(input("Enter the speed of the fan: "))
-user_radius_two = float(input("Enter the radius of the fan: "))
-user_color_two = str(input("Enter the color of the fan: "))
-user_power_two = input("Is the fan on/off: (True=On|False=Off) ").lower()
+print ("=" * 100)
+user_speed_two = int(input("Enter the speed of Fan 2: "))
+user_radius_two = float(input("Enter the radius of Fan 2: "))
+user_color_two = str(input("Enter the color of Fan 2: "))
+user_power_two = input("Is Fan 2 on/off: (True=On|False=Off) ").lower()
 
 # Set Fan2 Details 
 fan_two.set_speed(user_speed_two)
@@ -55,17 +58,20 @@ else:
     print("Invalid input. Setting default power (False).")
     fan_two.set_power(False)
 
-# Display the Output 
+# Display the Output
+print ("=" * 100) 
 print ("Fan 1 Details:")
 print ("Speed: " + str(fan_one.get_speed()))
 print ("Radius: " + str(fan_one.get_radius()))
 print ("Color: " + str(fan_one.get_color()))
 print ("Power: " + str(fan_one.get_power()))
 
+print ("=" * 100)
 print ("Fan 2 Details:")
 print ("Speed: " + str(fan_two.get_speed()))
 print ("Radius: " + str(fan_two.get_radius()))
 print ("Color: " + str(fan_two.get_color()))
 print ("Power: " + str(fan_two.get_power()))
+print ("=" * 100)
 
 
