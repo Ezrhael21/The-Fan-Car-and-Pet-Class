@@ -13,6 +13,11 @@ class Pet:
     # Method to set the type of animal the pet is
     def set_type (self, type):
         self.__type = type
+    
+    # Method to set the age of the pet
+    def set_age (self, age):
+        self.__age = age
+    
 
     
 
