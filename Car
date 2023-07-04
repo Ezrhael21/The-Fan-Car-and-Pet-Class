@@ -14,4 +14,8 @@ class Fan:
     def brake(self):
         self.__brake -= 5
     
+    # Method to get the current speed of the car
+    def get_speed(self):
+        return self.__speed
     
+
