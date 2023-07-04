@@ -1,5 +1,5 @@
 # Create a class named Car
-class Fan:
+class Car:
     # Initialize the Car object
     def __init__(self, year_model, make):
         self.__year_model = year_model
