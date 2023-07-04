@@ -19,4 +19,9 @@ pet.set_type(user_pet_type)
 pet.set_age(user_pet_age)
 
 # Display the output
+print ("Pet Details:")
+print ("Name: " + str(pet.get_name()))
+print ("Type: " + str(pet.get_type()))
+print ("Age: " + str(pet.get_age()))
+
 
