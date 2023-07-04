@@ -33,4 +33,6 @@ fan_two.set_speed(user_power_two)
 
 # Call the methods in the main file
 # Display the Output
+print ("Fan 1 Details:\n Speed:\n" + str(fan_one.get_speed()) + "Radius:\n" + str(fan_one.get_radius()) + "Color:\n" + str(fan_one.get_color()) + "Power:\n" + fan_one.turn_on())
+
 
