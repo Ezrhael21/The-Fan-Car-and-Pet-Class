@@ -37,12 +37,12 @@ print ("Fan 1 Details:")
 print ("Speed: " + str(fan_one.get_speed()))
 print ("Radius: " + str(fan_one.get_radius()))
 print ("Color: " + str(fan_one.get_color()))
-print ("Power: " + str(fan_one.turn_on()))
+print ("Power: " + str(fan_one.get_power()))
 
 print ("Fan 1 Details:")
 print ("Speed: " + str(fan_two.get_speed()))
 print ("Radius: " + str(fan_two.get_radius()))
 print ("Color: " + str(fan_two.get_color()))
-print ("Power: " + str(fan_two.turn_on()))
+print ("Power: " + str(fan_two.get_power()))
 
 

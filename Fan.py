@@ -42,12 +42,14 @@ class Fan:
     def get_power (self):
         return self.__power
 
-    def set_power (self):
-        self.__on = True
+    def turn_on (self):
+        if self.__power == "yes":
+            return True
     
     # Method to turn off the fan
-    def turn_off(self):
-        self.__on = False
+    def turn_off (self):
+        if self.__power == "no":
+            return False
     
     
 
