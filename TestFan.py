@@ -53,7 +53,7 @@ fan_two.set_color(user_color_two)
 # Set the Power for Fan 2
 if user_power_two == "true":
     fan_two.set_power(True)
-elif user_power_one == "false":
+elif user_power_two == "false":
     fan_two.set_power(False)
 else:
     print("Invalid input. Setting default power (False).")
